@@ -14,8 +14,8 @@
         .blue{
             background-color:blue;
         }
-        .aliceblue{
-            background-color:aliceblue;
+        .sandybrown{
+            background-color:sandybrown;
         }
         .yellowgreen{
             background-color:yellowgreen;
@@ -55,7 +55,7 @@
             <button id="1">RED</button>
             <button id="2">GREEN</button>
             <button id="3">BLUE</button>
-            <button id="4">ALICE BLUE</button>
+            <button id="4">SANDY BROWN</button>
             <button id="5">YELLOW GREEN</button>
             <button id="6">RED ORANGE</button>
         </div>
@@ -76,7 +76,7 @@
     const red = document.getElementById('1');
     const green = document.getElementById('2');
     const blue = document.getElementById('3');
-    const aliceblue = document.getElementById('4');
+    const sandybrown = document.getElementById('4');
     const yellowgreen = document.getElementById('5');
     const orangered = document.getElementById('6');
 
@@ -106,7 +106,7 @@
 
     sandybrown.addEventListener('click', function(e){
         removeBGColor();
-        content.classList.add('aliceblue');
+        content.classList.add('sandybrown');
     })
 
     yellowgreen.addEventListener('click', function(e){
@@ -158,7 +158,7 @@
         content.classList.remove('red');
         content.classList.remove('green');
         content.classList.remove('blue');
-        content.classList.remove('aliceblue');
+        content.classList.remove('sandybrown');
         content.classList.remove('yellowgreen');
         content.classList.remove('orangered');
     }
