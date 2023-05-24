@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #f3f4f6;
+    background-image: url("https://media.istockphoto.com/id/1219382595/vector/math-equations-written-on-a-blackboard.jpg?s=612x612&w=0&k=20&c=ShVWsMm2SNCNcIjuWGtpft0kYh5iokCzu0aHPC2fV4A=")
 }
 
 label {
@@ -16,14 +16,14 @@ label {
 input[type="text"], textarea, select{
     font-size: .875rem;
     line-height: 1.25rem;
-    border: 1px solid #d1d5db;
+    border: 1px solid #a8b2db;
     border-radius: 6px;
     padding: 8px 12px;
     margin-bottom: 12px;
     color: #374151;
 }
 fieldset{
-    border: 1px solid #d1d5db;
+    border: 1px solid #273adb;
     border-radius: 6px;
     width: fit-content;
     margin-bottom: 16px;
@@ -33,7 +33,7 @@ fieldset{
 
 fieldset legend{
     font-size: 14px;
-    color: #374151;
+    color: #003951;
 }
 
 input[type="checkbox"]{
@@ -65,7 +65,7 @@ section header{
 
 .content{
     box-shadow: 0 1px 3px 0 rgba(0 0 0  0.1), 0 1px 2px -1px rgba(0 0 0  0.1);
-    background: white;
+    background: #5b96ff;
     padding: 20px;
     border-radius: 12px;
     width: 500px;
